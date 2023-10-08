@@ -1,5 +1,6 @@
 services:
   opencart:
+    container_name: open_cart
     build: .
     ports:
       - "8000:80"
