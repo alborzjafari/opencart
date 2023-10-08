@@ -29,9 +29,6 @@ COPY launch.sh /
 RUN chmod +x /launch.sh
 WORKDIR /
 
-# Expose the Apache web server port
-EXPOSE 80
-
 # Start Apache when the container starts
 CMD ["./launch.sh"]
 
