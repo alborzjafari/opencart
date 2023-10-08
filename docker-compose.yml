@@ -1,0 +1,8 @@
+services:
+  opencart:
+    build: .
+    ports:
+      - "8000:80"
+    volumes:
+      - ./opencart/opencart-4.0.2.3/upload:/var/www/html
+
